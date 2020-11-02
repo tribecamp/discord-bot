@@ -1,0 +1,1 @@
+export { ICommand } from './ICommand';
