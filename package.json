@@ -9,10 +9,10 @@
     "watch": "swc src/ -d dist/ -w"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.27",
-    "@swc/core": "^1.2.37",
-    "chokidar": "^3.4.3",
-    "nodemon": "^2.0.6"
+    "@swc/cli": "0.1.27",
+    "@swc/core": "1.2.37",
+    "chokidar": "3.4.3",
+    "nodemon": "2.0.6"
   },
   "dependencies": {
     "discord.js": "^12.4.1",
