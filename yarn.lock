@@ -28,7 +28,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@swc/cli@^0.1.27":
+"@swc/cli@0.1.27":
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/@swc/cli/-/cli-0.1.27.tgz#f72032ab4e2e0618aacfcb0cf4eca5e67a90b204"
   integrity sha512-x/Ryy/R8C9b5bkozAgQjfrnN22sFnex43xf7pcmtf5RM3x9iELZL7udrlZ35EMeS8SgalCrhonD65HaJMFbJiA==
@@ -61,7 +61,7 @@
   resolved "https://registry.yarnpkg.com/@swc/core-win32/-/core-win32-1.2.37.tgz#f01954d03a0cfa3f02c27ee45f8a6e219a239322"
   integrity sha512-lIByC2oLngJfahqICRjPCXkxkhow+05O7RhoKPBjyqRoNxtpX76Xn2qTk0Y4l6OZYXAStWE3gzSZS6MyaKxMEQ==
 
-"@swc/core@^1.2.37":
+"@swc/core@1.2.37":
   version "1.2.37"
   resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.37.tgz#74c77f2e3986e31ba4b86ac6c28ecc55bae994c9"
   integrity sha512-76UjeJtWvK7Ln4Mq7Z8UeMvtOk4oncIgxLD0tp6LxrF1E3K7CJLZMxtjLUgVSwsYaim3qEkj+VPu7xUtjvp4Og==
@@ -193,7 +193,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@^3.2.2, chokidar@^3.4.3:
+chokidar@3.4.3, chokidar@^3.2.2:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
   integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
@@ -709,7 +709,7 @@ node-fetch@^2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-nodemon@^2.0.6:
+nodemon@2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.6.tgz#1abe1937b463aaf62f0d52e2b7eaadf28cc2240d"
   integrity sha512-4I3YDSKXg6ltYpcnZeHompqac4E6JeAMpGm8tJnB9Y3T0ehasLa4139dJOcCrB93HHrUMsCrKtoAlXTqT5n4AQ==
