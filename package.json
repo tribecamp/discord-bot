@@ -1,0 +1,21 @@
+{
+  "name": "@tribecamp/discord-bot",
+  "version": "1.0.0",
+  "main": "dist/app",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon .",
+    "compile": "swc src/ -d dist/",
+    "watch": "swc src/ -d dist/ -w"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.27",
+    "@swc/core": "^1.2.37",
+    "chokidar": "^3.4.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "inversify": "^5.0.1"
+  }
+}
