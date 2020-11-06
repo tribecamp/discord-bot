@@ -4,9 +4,11 @@
   "main": "dist/app",
   "license": "MIT",
   "scripts": {
+    "start": "node .",
     "dev": "nodemon .",
     "compile": "swc src/ -d dist/",
-    "watch": "swc src/ -d dist/ -w"
+    "watch": "swc src/ -d dist/ -w",
+    "build": "docker build -t tribecamp-discord-bot ."
   },
   "devDependencies": {
     "@swc/cli": "0.1.27",
