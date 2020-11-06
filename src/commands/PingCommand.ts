@@ -1,5 +1,5 @@
-import { inject, injectable } from "inversify";
-import { ICommand, ILogger, IMessage } from "../interfaces";
+import { injectable } from "inversify";
+import { ICommand, IMessage } from "../interfaces";
 
 @injectable()
 export class PingCommand implements ICommand {
@@ -7,15 +7,19 @@ export class PingCommand implements ICommand {
 
   args: string[];
 
-  constructor(
-    @inject('Logger') private logger: ILogger
-  ) {
+  constructor() {
     this.id = 'ping';
     this.args = [];
   }
 
-  async execute(message: IMessage, args: string[]): Promise<void> {
-    this.logger.info(JSON.stringify(args))
-    await message.channel.send(`Hi ${message.member.nickname}!`);
+  async execute(message: IMessage): Promise<void> {
+    const greetings = [
+      'Aye', "What's up",
+      'Hi', 'Hello',
+      'Hiya', 'Hola'
+    ];
+
+    const index = Math.floor(Math.random() * greetings.length)
+    await message.channel.send(`${greetings[index]} ${message.author.username}!`);
   }
 }
