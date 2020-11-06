@@ -1,11 +1,11 @@
 import { injectable } from "inversify";
-import { ICommand, IMessage } from "../interfaces";
+import { ICommand, ICommandArgument, IMessage } from "../interfaces";
 
 @injectable()
 export class PingCommand implements ICommand {
   id: string;
 
-  args: string[];
+  args: ICommandArgument[];
 
   constructor() {
     this.id = 'ping';
