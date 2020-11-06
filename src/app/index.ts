@@ -1,5 +1,6 @@
 import { config } from 'dotenv';
-import { IClient, ILogger } from 'src/interfaces';
+import { events } from '../events';
+import { IClient, ILogger } from '../interfaces';
 import { container } from '../config/ioc.config';
 
 async function bootstrap() {
@@ -11,6 +12,11 @@ async function bootstrap() {
 
   // Authenticate with Discord
   await client.login(process.env.DISCORD_TOKEN);
+
+  // Register events
+  events.forEach((event) => {
+    client.on(event.id, (...args) => event.handler(args));
+  });
 
   logger.info('Server started');
 }
