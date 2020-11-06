@@ -13,7 +13,9 @@ import { config } from '.';
 
 const container = new Container();
 
-container.bind<IClient>('Client').toConstantValue(new Client());
+container.bind<IClient>('Client').toConstantValue(new Client({
+  disableMentions: 'everyone'
+}));
 container.bind<IConfig>('Config').toConstantValue(config);
 container.bind<ILogger>('Logger').to(Logger);
 
