@@ -18,8 +18,9 @@ export class PingCommand implements ICommand {
       'Hi', 'Hello',
       'Hiya', 'Hola'
     ];
-
+    
+    const { displayName } = message.guild.member(message.author);
     const index = Math.floor(Math.random() * greetings.length)
-    await message.channel.send(`${greetings[index]} ${message.author.username}!`);
+    await message.channel.send(`${greetings[index]} ${displayName}!`);
   }
 }
