@@ -5,8 +5,7 @@ ENV NODE_ENV $NODE_ENV
 WORKDIR /usr/local/app
 COPY package.json yarn.lock ./
 
-RUN NODE_ENV=development yarn install
-RUN yarn add @swc/core-linux-musl
+RUN NODE_ENV=development yarn install && yarn add @swc/core-linux-musl
 
 COPY . ./
 
