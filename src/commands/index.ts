@@ -5,4 +5,4 @@ import { PingCommand } from './PingCommand';
 
 export const commands: ICommand[] = [
   PingCommand
-].map(i => container.resolve<ICommand>(i));
+].map((i) => container.resolve<ICommand>(i));
