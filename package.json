@@ -10,17 +10,26 @@
     "watch": "swc src/ -d dist/ -w",
     "build": "docker build -t tribecamp-discord-bot ."
   },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.7",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-unicorn": "^23.0.0",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.0.5"
+  },
   "devDependencies": {
     "@swc/cli": "0.1.27",
     "@swc/core": "1.2.37",
+    "@tribecamp/eslint": "^1.0.1",
     "@types/node": "^14.14.6",
     "chokidar": "3.4.3",
     "nodemon": "2.0.6"
-  },
-  "dependencies": {
-    "discord.js": "^12.4.1",
-    "dotenv": "^8.2.0",
-    "inversify": "^5.0.1",
-    "reflect-metadata": "^0.1.13"
   }
 }
