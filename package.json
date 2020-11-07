@@ -8,7 +8,9 @@
     "dev": "nodemon .",
     "compile": "swc src/ -d dist/",
     "watch": "swc src/ -d dist/ -w",
-    "build": "docker build -t tribecamp-discord-bot ."
+    "build": "docker build -t tribecamp-discord-bot .",
+    "lint": "eslint '**/*.{js,ts}'",
+    "lint:fix": "eslint '**/*.{js,ts}' --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.1",
