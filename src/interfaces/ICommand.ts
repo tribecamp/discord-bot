@@ -1,5 +1,5 @@
-import { ICommandArgument } from "./ICommandArgument";
-import { IMessage } from "./IMessage";
+import { ICommandArgument } from './ICommandArgument';
+import { IMessage } from './IMessage';
 
 export interface ICommand {
   id: string;

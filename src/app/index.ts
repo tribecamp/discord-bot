@@ -3,7 +3,7 @@ import { events } from '../events';
 import { IClient, ILogger } from '../interfaces';
 import { container } from '../config/ioc.config';
 
-async function bootstrap() {
+async function bootstrap(): Promise<void> {
   const client = container.get<IClient>('Client');
   const logger = container.get<ILogger>('Logger');
 

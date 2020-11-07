@@ -1,5 +1,5 @@
-import { injectable } from "inversify";
-import { ICommand, ICommandArgument, IMessage } from "../interfaces";
+import { injectable } from 'inversify';
+import { ICommand, ICommandArgument, IMessage } from '../interfaces';
 
 @injectable()
 export class PingCommand implements ICommand {
@@ -18,9 +18,9 @@ export class PingCommand implements ICommand {
       'Hi', 'Hello',
       'Hiya', 'Hola'
     ];
-    
+
     const { displayName } = message.guild.member(message.author);
-    const index = Math.floor(Math.random() * greetings.length)
+    const index = Math.floor(Math.random() * greetings.length);
     await message.channel.send(`${greetings[index]} ${displayName}!`);
   }
 }
