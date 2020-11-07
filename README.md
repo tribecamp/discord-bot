@@ -20,7 +20,7 @@ yarn compile
 yarn dev
 ```
 
-Move `src/config/env.example` to the root directory and rename it to `.env`, and fill in your Discord bot token.
+Move `src/config/env.example` to the root directory and rename it to `.env`, and fill in your Discord bot token, which you can find [here](https://discord.com/developers/applications).
 
 ## License
 
