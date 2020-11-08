@@ -6,7 +6,8 @@
 
 ## Contributing
 
-## Installation
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License
-This project is licensed under the MIT license.
+
+This project is licensed under the MIT license. See the license [here](./LICENSE).

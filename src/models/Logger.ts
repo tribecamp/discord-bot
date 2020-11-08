@@ -1,5 +1,6 @@
-import { injectable } from "inversify";
-import { ILogger } from "../interfaces";
+/* eslint-disable no-console */
+import { injectable } from 'inversify';
+import { ILogger } from '../interfaces';
 
 @injectable()
 export class Logger implements ILogger {
@@ -12,6 +13,6 @@ export class Logger implements ILogger {
   }
 
   error(msg: string, error: Error): void {
-    this.log('ERROR', msg);
+    this.log('ERROR', `${msg}\n${error}`);
   }
 }

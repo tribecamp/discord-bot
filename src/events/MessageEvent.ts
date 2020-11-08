@@ -1,5 +1,5 @@
 import { ClientEvents } from 'discord.js';
-import { inject, injectable } from "inversify";
+import { inject, injectable } from 'inversify';
 import { commands } from '../commands';
 import { IConfig, IEvent } from '../interfaces';
 
@@ -15,8 +15,8 @@ export class MessageEvent implements IEvent {
 
   handler([message]: ClientEvents['message']): void {
     if (message.content.startsWith(this.config.commandPrefix)) {
-      const [command, ...args] = message.content.substring(1).split(' ');
-      const targetCommand = commands.find(i => i.id === command);
+      const [command, ...args] = message.content.slice(1).split(' ');
+      const targetCommand = commands.find((i) => i.id === command);
 
       if (targetCommand) {
         targetCommand.execute(message, args);

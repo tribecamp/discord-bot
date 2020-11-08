@@ -1,8 +1,8 @@
-import { container } from "../config/ioc.config";
-import { IEvent } from "../interfaces";
+import { container } from '../config/ioc.config';
+import { IEvent } from '../interfaces';
 
-import { MessageEvent } from "./MessageEvent";
+import { MessageEvent } from './MessageEvent';
 
 export const events: IEvent[] = [
   MessageEvent
-].map(i => container.resolve<IEvent>(i));
+].map((i) => container.resolve<IEvent>(i));
