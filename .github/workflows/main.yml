@@ -33,4 +33,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: tribecamp/discord-bot:latest
+          tags: ghcr.io/tribecamp/discord-bot:latest
