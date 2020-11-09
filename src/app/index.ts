@@ -13,6 +13,15 @@ async function bootstrap(): Promise<void> {
   // Authenticate with Discord
   await client.login(process.env.DISCORD_TOKEN);
 
+  // Set status
+  await client.user.setPresence({
+    activity: {
+      name: 'the Tribecamp server',
+      type: 'WATCHING'
+    },
+    status: 'online'
+  });
+
   // Register events
   events.forEach((event) => {
     client.on(event.id, (...args) => event.handler(args));
