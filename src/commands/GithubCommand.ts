@@ -13,6 +13,6 @@ export class GithubCommand implements ICommand {
   }
 
   async execute(message: IMessage): Promise<void> {
-    await message.channel.send(`Here is our GitHub Page: <https://github.com/tribecamp>`);
+    await message.channel.send('Here is our GitHub Page: <https://github.com/tribecamp>');
   }
 }
