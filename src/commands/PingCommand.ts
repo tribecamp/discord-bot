@@ -1,4 +1,5 @@
 import { injectable } from 'inversify';
+import { MessageEmbedOptions } from 'discord.js';
 import { ICommand, ICommandArgument, IMessage } from '../interfaces';
 
 @injectable()
@@ -16,11 +17,22 @@ export class PingCommand implements ICommand {
     const greetings = [
       'Aye', "What's up",
       'Hi', 'Hello',
-      'Hiya', 'Hola'
+      'Hiya', 'Hola',
+      'Hi there', 'Fakka',
+      'Здравствуйте', '你好'
     ];
 
-    const { displayName } = message.guild.member(message.author);
-    const index = Math.floor(Math.random() * greetings.length);
-    await message.channel.send(`${greetings[index]} ${displayName}!`);
+    const i = Math.floor(Math.random() * greetings.length);
+
+    const pingEmbed: MessageEmbedOptions = {
+      title: `${greetings[i]} ${message.author.username}!`,
+      color: 16312092,
+      footer: {
+        text: `🏓 Latency is ${Date.now() - message.createdTimestamp} ms.`
+      }
+
+    };
+
+    await message.channel.send({ embed: pingEmbed });
   }
 }
