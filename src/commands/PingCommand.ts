@@ -25,7 +25,7 @@ export class PingCommand implements ICommand {
     const i = Math.floor(Math.random() * greetings.length);
 
     const pingEmbed: MessageEmbedOptions = {
-      title: `${greetings[i]} ${message.author.username}!`,
+      title: `${greetings[i]} ${message.member.displayName}!`,
       color: 16312092,
       footer: {
         text: `🏓 Latency is ${Date.now() - message.createdTimestamp} ms.`
