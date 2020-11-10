@@ -16,7 +16,7 @@ export class MessageEvent implements IEvent {
   handler([message]: ClientEvents['message']): void {
     if (message.content.startsWith(this.config.commandPrefix)) {
       const [command, ...args] = message.content.slice(1).split(' ');
-      const targetCommand = commands.find((i) => i.id === command);
+      const targetCommand = commands.find((i) => i.id.toLowerCase() === command.toLowerCase());
 
       if (targetCommand) {
         targetCommand.execute(message, args);
