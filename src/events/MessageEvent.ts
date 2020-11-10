@@ -1,14 +1,15 @@
 import { ClientEvents } from 'discord.js';
 import { inject, injectable } from 'inversify';
 import { commands } from '../commands';
-import { IConfig, IEvent } from '../interfaces';
+import { ICommandExecutor, IConfig, IEvent } from '../interfaces';
 
 @injectable()
 export class MessageEvent implements IEvent {
   id: IEvent['id'];
 
   constructor(
-    @inject('Config') private config: IConfig
+    @inject('Config') private config: IConfig,
+    @inject('CommandExecutor') private commandExecutor: ICommandExecutor
   ) {
     this.id = 'message';
   }
@@ -19,7 +20,7 @@ export class MessageEvent implements IEvent {
       const targetCommand = commands.find((i) => i.id.toLowerCase() === command.toLowerCase());
 
       if (targetCommand) {
-        targetCommand.execute(message, args);
+        this.commandExecutor.execute(targetCommand, message, args);
       }
     }
   }
