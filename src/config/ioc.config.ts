@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import { Client } from 'discord.js';
+import { Client, Intents } from 'discord.js';
 import { Container } from 'inversify';
 
 import {
@@ -14,7 +14,10 @@ import { config } from '.';
 const container = new Container();
 
 container.bind<IClient>('Client').toConstantValue(new Client({
-  disableMentions: 'everyone'
+  disableMentions: 'everyone',
+  ws: {
+    intents: new Intents(515)
+  }
 }));
 container.bind<IConfig>('Config').toConstantValue(config);
 container.bind<ILogger>('Logger').to(Logger);
