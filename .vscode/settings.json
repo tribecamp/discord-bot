@@ -7,8 +7,8 @@
   },
   "editor.tabSize": 2,
   "search.exclude": {
-    "**/node_modules": true,
-    "**/*.code-search": true,
+    "node_modules": true,
+    "*.code-search": true,
     "yarn.lock": true
   },
   "npm.packageManager": "yarn",
