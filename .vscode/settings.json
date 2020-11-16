@@ -1,0 +1,26 @@
+{
+  "eslint.validate": [
+    "typescript",
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.code-search": true,
+    "yarn.lock": true
+  },
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(ts|js)$",
+        "cmd": "swc src/ -d dist/"
+      }
+    ]
+  },
+  "files.eol": "\n"
+}
