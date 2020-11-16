@@ -2,7 +2,7 @@
 
 ## Style Guide
 
-This Tribecamp repository follows the **[Tribecamp Style Guide](https://github.com/tribecamp/eslint)**, which is built on top of the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+This Tribecamp repository follows the **[Tribecamp Style Guide](https://github.com/tribecamp/eslint)**, which follows the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 We expect everyone to strictly follow this style guide.
 Before you either push a commit or create a Pull Request, please check if there are no linter errors present. We recommend using Visual Studio Code (or [VSCodium](https://vscodium.com), if you're concerned about your privacy) with the ESLint plugin installed for automatic linting.
 
@@ -52,6 +52,8 @@ yarn dev # start the developer environment
 ```
 
 Move [`src/config/env.example`](./src/config/env.example) to the [root directory](./) and rename it to `.env`, and fill in your Discord bot token, which you can find [here](https://discord.com/developers/applications).
+
+If you want to use hot reloading in `yarn dev`, you'll have to install the [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) extension on Visual Studio Code.
 
 ## Useful commands
 
