@@ -49,9 +49,9 @@ export class BanCommand implements ICommand {
 
     try {
       // Ban the user.
-      //  await user.ban({
-      //    reason: 'Banned by Tribecamp Bot'
-      //  });
+      await user.ban({
+        reason: 'Banned by Tribecamp Bot'
+      });
       await message.channel.send(`${user.displayName} got thrown in the void!`);
       return;
     } catch (err) {
