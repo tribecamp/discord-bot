@@ -6,7 +6,7 @@ import { ILogger } from '../interfaces';
 @injectable()
 export class Logger implements ILogger {
   private log(level: string, msg: string): void {
-    console.log(`${chalk.gray('[')}${level}${chalk.gray(']')} ${msg}`);
+    console.log(`${chalk.gray(`[${level}]`)} ${msg}`);
   }
 
   info(msg: string): void {
