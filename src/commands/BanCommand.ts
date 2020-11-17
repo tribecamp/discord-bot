@@ -9,10 +9,9 @@ export class BanCommand implements ICommand {
 
   args: ICommandArgument[];
 
-  @inject('Logger')
-  logger: ILogger;
-
-  constructor() {
+  constructor(
+    @inject('Logger') private logger: ILogger
+  ) {
     this.id = 'ban';
     this.args = [{
       name: 'user',
