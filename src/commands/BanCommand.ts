@@ -5,12 +5,11 @@ import {
 
 @injectable()
 export class BanCommand implements ICommand {
-  @inject('logger')
-
   id: string;
 
   args: ICommandArgument[];
 
+  @inject('Logger')
   logger: ILogger;
 
   constructor() {
