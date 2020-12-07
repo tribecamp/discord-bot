@@ -358,10 +358,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tribecamp/eslint-config-base@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@tribecamp/eslint-config-base/-/eslint-config-base-1.1.1.tgz#fd4ecaf941eb0bee9e2104cf1fa6791c5f65ed7b"
-  integrity sha512-4ve0o6Ajem2sJbB8+ytq5JGLxB7MqB3tj4g7zV34KpyqtO/66G3bWh1YgMhAzEijjBKMHDHUuXaOfHWUZLQofQ==
+"@tribecamp/eslint-config-base@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@tribecamp/eslint-config-base/-/eslint-config-base-1.1.2.tgz#b3c04381f72e27b8ad116cb2026979b84f2cf19f"
+  integrity sha512-i66EEcVjOrB0pawPjvJV/7MKBny0jjSABrBQvOvgfRMYseUH9kbOH9KXCKAQEvnTFDRvRYavS/dGfebr9cb7zQ==
   dependencies:
     eslint-config-airbnb "18.2.1"
     eslint-config-airbnb-base "14.2.1"
