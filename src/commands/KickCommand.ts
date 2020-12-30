@@ -32,7 +32,7 @@ export class KickCommand implements ICommand {
       return;
     }
     // Convert mention to ID, and get the user.
-    const user = message.guild.member(args[0].replace(/[!#&<>@\\]/g, ''));
+    const user = message.guild.members.resolve(args[0].replace(/[!#&<>@\\]/g, ''));
 
     // If user does not exist, return
     if (!user) {
