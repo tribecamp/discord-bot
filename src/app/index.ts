@@ -16,7 +16,7 @@ async function bootstrap(): Promise<void> {
   // Set status
   await client.user.setPresence({
     activity: {
-      name: 'the Tribecamp server',
+      name: 'the Tribecamp Server',
       type: 'WATCHING'
     },
     status: 'online'
