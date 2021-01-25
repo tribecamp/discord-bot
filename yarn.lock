@@ -313,10 +313,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@swc/cli@0.1.27":
-  version "0.1.27"
-  resolved "https://registry.yarnpkg.com/@swc/cli/-/cli-0.1.27.tgz#f72032ab4e2e0618aacfcb0cf4eca5e67a90b204"
-  integrity sha512-x/Ryy/R8C9b5bkozAgQjfrnN22sFnex43xf7pcmtf5RM3x9iELZL7udrlZ35EMeS8SgalCrhonD65HaJMFbJiA==
+"@swc/cli@0.1.33":
+  version "0.1.33"
+  resolved "https://registry.yarnpkg.com/@swc/cli/-/cli-0.1.33.tgz#45893c43ee27e4a4375decba5b9c0d960e45a539"
+  integrity sha512-+EjXKFkoF0EIukg1zYIKF1A4VjAX7mB01z1JHVB+7vJT4f4mMtGxQau6cwAGdHBjzW4QlIbCYc64rJmgZJEaiw==
   dependencies:
     commander "^2.19.0"
     convert-source-map "^1.6.0"
