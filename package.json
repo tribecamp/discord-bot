@@ -32,7 +32,7 @@
     "@swc/core": "1.2.47",
     "@tribecamp/eslint-config-base": "^1.1.2",
     "@tribecamp/eslint-config-typescript": "^1.1.3",
-    "@types/node": "^14.14.25",
+    "@types/node": "^14.14.35",
     "@typescript-eslint/parser": "^4.14.2",
     "chokidar": "3.5.1",
     "eslint": "^7.14.0",
