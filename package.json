@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@swc/cli": "0.1.34",
+    "@swc/cli": "0.1.39",
     "@swc/core": "1.2.47",
     "@tribecamp/eslint-config-base": "^1.1.2",
     "@tribecamp/eslint-config-typescript": "^1.1.3",
