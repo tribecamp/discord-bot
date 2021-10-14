@@ -331,67 +331,79 @@
     slash "^2.0.0"
     source-map "^0.7.3"
 
-"@swc/core-android-arm64@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.47.tgz#554106c849eaa28904f7f98e4cec0413d72642a1"
-  integrity sha512-N11TLGtK+pKPFCcimg07CnJCj8qKqPbyAx8a5z2CW2+qtAB1a8XpK9njl5ExA3mxrur9qa9ITb0OPNBjojb7nw==
+"@swc/core-android-arm64@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.96.tgz#9ea9871d3719f5dfcdc06fdfdf237797ab4dc0d0"
+  integrity sha512-Go7x+sHEErc/CzfF9QRkN+Bk6HUYI/RuSGkBaD+4cR8gbnu5F0NzzWQkbGS+QX25QbCaoWAI5ZGMRZ/2on619w==
 
-"@swc/core-darwin-arm64@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.47.tgz#b2e3e5297b295091798a3d224687faa877fd251c"
-  integrity sha512-HRdUR6wd2w3mky8j6tOpL4j2MMsAFWSe7KfgPOCwlIWPlprlK1ACB0r+BmqpwC+REYnWoUG+dtPmpX1UdqGShQ==
+"@swc/core-darwin-arm64@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.96.tgz#213f58db1721186a69ce91741485d4676ddb7afd"
+  integrity sha512-zJu25O8qdV8Qpk84C5C4BxbGr3N9QIyQSjSeb04zMFmdCX0xYGrgpFsuZ/DQjem2ehWXFrgeGSqAH3vj3Lk6xQ==
 
-"@swc/core-darwin-x64@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.47.tgz#0e8f39e99ada7dde6ecfba7417805743d3ba987c"
-  integrity sha512-Sp6D+Nyw6n4tDl4SxcGpK/FxoX/GDSMhvNunmoTL0KJjRCNe8SJO83jsv6YLJSCV+q6hl+x6XeiZ0JzKGzFjfQ==
+"@swc/core-darwin-x64@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.96.tgz#b60628d9e9343f8cf494ac3b4a24ca5540ecba30"
+  integrity sha512-MNMFfwBbTL8z8idsdW2NudvLnXoH9sLsc56ZmWt5fkUVbkfquDiip/GB0b/EM+Xr5q4yYTGgjlVlSfllt3ZbOg==
 
-"@swc/core-linux-arm-gnueabihf@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.47.tgz#85dfe68f350ab7ac3f36bb344513db9ae3715858"
-  integrity sha512-U6ZfRloE1UFjhmyFptlAk5HACAzSTEeQLZmxqzhN6w1l7tsHDG4oLJuBPkZivL7cgwbiyO6RbaCu3mBG426+uA==
+"@swc/core-linux-arm-gnueabihf@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.96.tgz#18e39ff0de633ab093f9a91b99f18b99278a16e6"
+  integrity sha512-VYQTGS6X85jxAzaOXPBmikEPh0aq9fGFrNr1sSi1YdKJ9Iwpw/vVbD67FBLja8Jzo+d5Sh0cHqFByCK4XWHExg==
 
-"@swc/core-linux-arm64-gnu@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.47.tgz#82ee3a4feaa5e3feb4e806537fc1784bb01e973c"
-  integrity sha512-D1+/veC1EdkuIYmwLK/ka22L4HOX4rejmwhBATrfQX6XfewmLe1+y2LxBhkLd0CG1+N5L2/Eoq3ohLjdtoKnwg==
+"@swc/core-linux-arm64-gnu@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.96.tgz#fb22ca514fabd9e3463958930eeb1dd14ea87c52"
+  integrity sha512-BWrpXFI4AG97upawPkQHdvdu+AtPY87Gb4yia09ea8T5srt37wwrYomIx/nUf7f+DFE2p2ULiaTuhs+m1x6lPw==
 
-"@swc/core-linux-x64-gnu@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.47.tgz#7a6cebd85f1abd0258343899fed71cfb32e0bf48"
-  integrity sha512-x9PJcnlVj4bARNB2t7oBn84T+80wItHm2YSWj4L47Us0/oNRB1IYe2icsaAUlgZMviIJTSgS5j8UQCLmg3kiGg==
+"@swc/core-linux-arm64-musl@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.96.tgz#8cf08954f299ee70d1155f5dbb39da04b3677fb1"
+  integrity sha512-W8APv+1G62/nwnEPMDbtbVDwjG1mh479oBI3ZvBnOFmMh1rprDVfI9eekP2y29EeHWAVoqzTdHzzwvqSRS/2mw==
 
-"@swc/core-linux-x64-musl@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.47.tgz#58ed13d4f1d583856d1fa3bf3dc3281fb90c614a"
-  integrity sha512-cTUTxQCejdkBHnzWBiAzy0oMy3gM3MTmwPmHX4hDmM6TO8+MG4D2qlDJEe2cM45R66GdUsl01hXJtcd46MIs6Q==
+"@swc/core-linux-x64-gnu@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.96.tgz#fedeca9d00ebec7e4c7a4c20a5d0b989f1162fcf"
+  integrity sha512-vURG3l5gCipo84kWLZAPpY18yq1n13KtxjTxxEiXvqTWkBjPoUWM00hpEpDeHoL1yAipb8v4jeRk8KauEf5X4w==
 
-"@swc/core-win32-ia32-msvc@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.47.tgz#8b8fdebb91bab24a1231583d11a6297f942771da"
-  integrity sha512-bysp0kLK8hzqDktDr3N8NHG9bmF+aGO7FSjixLRFeiXhKwVgGoMMMv0S0myHoPUIEo4K3TU7QnGqhpkvohmNaQ==
+"@swc/core-linux-x64-musl@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.96.tgz#eec99b0157a09910be129430b96104c3762dc886"
+  integrity sha512-v7MMGum9/WRX8hMWP+6g4FxMmJzb7eSLpLuZ5vGeqZGctHMUVPkwF65zac/Z0iH5P2fe9c1bFCYe3igKIRfCww==
 
-"@swc/core-win32-x64-msvc@^1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.47.tgz#c144be04102e4e0575a0e7189b27718a660ee0c5"
-  integrity sha512-rG9S6LRKFrlE/HEZqQRBJ/X9tG9vy/6TdupXpUSNrDUidHJdULsGwqjeXlY4kXhNP/SqpqoFC8l8DwmlEbkQtQ==
+"@swc/core-win32-arm64-msvc@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.96.tgz#bfc985240095bc8f56c21974a779c8c41aa8a295"
+  integrity sha512-ykit1GohcKMd9cDgMmVrYLIHEQYSOOlHrDUfHbc/JLvhTv7JP7Th2PzKaujer8cLVm+HuXbYCvzJGltVWUy2dw==
 
-"@swc/core@1.2.47":
-  version "1.2.47"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.47.tgz#a2fda021d24d80214168faf2e1b985329a4c877a"
-  integrity sha512-y1Xfp/8K9jLg1QRBkV7XDpI9wz8yvVjBw60DhtAIzpRnmfv2uDK+y5p0OY+5zC7/OTmUB9DWtyM5YX6snkHqag==
+"@swc/core-win32-ia32-msvc@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.96.tgz#306d1241827150988570d40d5b3f3f14334790a8"
+  integrity sha512-aEvFh06nlhFHqcwkV/3B0SolGS2kFOGa7CdyJNRf502rbNTYUqwjnNcZBgBimeyguoZ8Fax0DUoFs4kKzmdokA==
+
+"@swc/core-win32-x64-msvc@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.96.tgz#54c063f6b5f1e7589fedab7d9fd7ec0acb331a47"
+  integrity sha512-s5eExaaZQ2GPCPjy9aropzkLXaR0P5Zk8EpwH3OqMTZrU6I8Hzt6i9mnkfdX89iaWES+z93svaIIxKA6Bn9NFg==
+
+"@swc/core@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.96.tgz#4cb4619176af4779ac3c7800c1e0fa6f3969de78"
+  integrity sha512-On+Ex9MDFwmJjY2filiNnvJ+9mENkc7QoNdj0Ijy8dEWCWol1bUb/lurSBtc9F6hKDlSygTMJEa+S0WsHq9TsQ==
   dependencies:
     "@node-rs/helper" "^1.0.0"
   optionalDependencies:
-    "@swc/core-android-arm64" "^1.2.47"
-    "@swc/core-darwin-arm64" "^1.2.47"
-    "@swc/core-darwin-x64" "^1.2.47"
-    "@swc/core-linux-arm-gnueabihf" "^1.2.47"
-    "@swc/core-linux-arm64-gnu" "^1.2.47"
-    "@swc/core-linux-x64-gnu" "^1.2.47"
-    "@swc/core-linux-x64-musl" "^1.2.47"
-    "@swc/core-win32-ia32-msvc" "^1.2.47"
-    "@swc/core-win32-x64-msvc" "^1.2.47"
+    "@swc/core-android-arm64" "1.2.96"
+    "@swc/core-darwin-arm64" "1.2.96"
+    "@swc/core-darwin-x64" "1.2.96"
+    "@swc/core-linux-arm-gnueabihf" "1.2.96"
+    "@swc/core-linux-arm64-gnu" "1.2.96"
+    "@swc/core-linux-arm64-musl" "1.2.96"
+    "@swc/core-linux-x64-gnu" "1.2.96"
+    "@swc/core-linux-x64-musl" "1.2.96"
+    "@swc/core-win32-arm64-msvc" "1.2.96"
+    "@swc/core-win32-ia32-msvc" "1.2.96"
+    "@swc/core-win32-x64-msvc" "1.2.96"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
